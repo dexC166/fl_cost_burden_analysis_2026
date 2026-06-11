@@ -70,9 +70,11 @@ High cost burden is linked to housing instability, longer commutes, and families
 
 Each answer comes straight from `notebooks/01_fl_housing_cost_burden_analysis.ipynb` (section numbers in italics). The notebook's final summary cell computes every one of these numbers live from the data - nothing is typed in by hand.
 
-**1. Which Florida counties have the most cost-burdened households, by count and by rate?**
+#### 1. Which Florida counties have the most cost-burdened households, by count and by rate?
 
-**Answer: Miami-Dade, on both measures.**
+Answer:
+
+##### Miami-Dade, on both measures.
 
 - Most cost-burdened households: **461,815**
 - Highest burden rate of any county: **46.6%**, with Broward next at 42.6%
@@ -81,9 +83,11 @@ _(Sections 2-4; Section 10 summary)_
 
 ![Top 10 Florida counties by cost-burdened household count](outputs/figures/top10_bar.png)
 
-**2. In Manatee County and its neighbors, do renter or owner households have a higher cost-burden rate?**
+#### 2. In Manatee County and its neighbors, do renter or owner households have a higher cost-burden rate?
 
-**Answer: Renters - about twice as burdened as owners.**
+Answer:
+
+##### Renters, about twice as burdened as owners.
 
 - Renters: **48-51%** cost-burdened in all four counties
 - Owners: only **22-24%**
@@ -92,9 +96,11 @@ _(Section 5, renter vs owner bar chart; Section 10 summary)_
 
 ![Renter vs owner cost-burden rate in Manatee and neighboring counties](outputs/figures/renter_owner_bar.png)
 
-**3. Which income groups have the highest cost-burden rates in Manatee County and its neighbors?**
+#### 3. Which income groups have the highest cost-burden rates in Manatee County and its neighbors?
 
-**Answer: The lowest earners - and burden drops steadily as income rises.**
+Answer:
+
+##### The lowest earners, and burden drops steadily as income rises.
 
 - Households at **30% AMI or less**: over **80%** are cost-burdened
 - Households above **100% AMI**: under **10%**
@@ -104,9 +110,11 @@ _(Section 5, income-band heatmap and median-income table; Section 10 summary)_
 
 ![Cost-burden rate by income band for Manatee and neighboring counties](outputs/figures/home_heatmap.png)
 
-**4. How do Manatee County and its neighbors compare to the rest of Florida?**
+#### 4. How do Manatee County and its neighbors compare to the rest of Florida?
 
-**Answer: All four sit above the typical Florida county, but below the big urban extremes.**
+Answer:
+
+##### All four sit above the typical Florida county, but below the big urban extremes.
 
 - Average county burden rate (mean of all 67 county rates): **26.8%**
 - Statewide rate (all burdened households ÷ all households): **34.1%** - higher than the county average because the biggest counties are the most burdened
@@ -117,9 +125,11 @@ In the histogram below, the red dashed line marks the 26.8% county average. _(Se
 
 ![Distribution of cost-burden rates across all 67 Florida counties](outputs/figures/burden_histogram.png)
 
-**5. Is homeownership in my home area rising or falling?**
+#### 5. Is homeownership in my home area rising or falling?
 
-**Answer: Remarkably steady for 35 years.**
+Answer:
+
+##### Remarkably steady for 35 years.
 
 - Manatee: **71%** in 1990 vs **74%** in 2024; the neighbors barely moved either
 - The affordability squeeze shows up in **prices** (cost burden), not in who owns
@@ -128,9 +138,11 @@ _(Section 7, homeownership trend line plot)_
 
 ![Homeownership rate 1990-2024 for Manatee and neighbors](outputs/figures/homeownership_trend.png)
 
-**6. Can one median wage cover a typical 2-bedroom near home?**
+#### 6. Can one median wage cover a typical 2-bedroom near home?
 
-**Answer: Usually not.**
+Answer:
+
+##### Usually not.
 
 - HUD's 2025 Fair Market Rent for a 2-bedroom in the Manatee + Sarasota metro: **\$1,846/month**
 - **10 of the 12** everyday jobs checked need **more than 30%** of a single median wage to cover it
@@ -140,9 +152,11 @@ _(Section 8, wages vs Fair Market Rent bar chart)_
 
 ![Share of one median wage needed for a 2-bedroom, by occupation](outputs/figures/wage_vs_rent.png)
 
-**7. Which household types carry the most burden?**
+#### 7. Which household types carry the most burden?
 
-**Answer: Single-mother families and non-family households (people living alone or with roommates).**
+Answer:
+
+##### Single-mother families and non-family households (people living alone or with roommates).
 
 - Single-mother families: **37-47%** cost-burdened across the four counties - and **up to 62%** among those who rent
 - Non-family households (living alone or with roommates): **44-48%**
