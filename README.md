@@ -249,6 +249,7 @@ The honest fine print (Section 11 of the notebook has the full version):
 - **AMI proxy.** County median income approximates HUD's metro-level AMI; "roughly \$24,000" is a good ballpark, not the official cutoff.
 - **One earner per household.** The wages-vs-rent chart shows what a _solo_ median-wage worker faces; many households have two earners.
 - **Mixed time windows.** Cost burden is 2023, income 2024, household types 2020-2024, Fair Market Rent 2025 - each sheet is used on its own terms.
+- **College-town effect.** University counties like Alachua (Gainesville/UF) and Leon (Tallahassee/FSU & FAMU) can read high partly because of off-campus students. The Census measures a household's _own_ income, so students living on parental support, loans, or part-time work can show up as cost-burdened even when their families are not low-income. This does not make their burden fake - students also compete for rentals and push local rents up - but it is a reason to read those counties with extra care. Cleanly separating student from non-student renters would require record-by-record data on individual households (the Census Bureau publishes this as the American Community Survey Public Use Microdata Sample, or "PUMS"); the county-level Shimberg totals used here are already added up, so they cannot isolate that.
 - **Descriptive, not causal.** This shows _where_ and _who_, not _why_.
 
 ---
