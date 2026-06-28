@@ -45,7 +45,7 @@ The dataset also groups households by income level, measured against **Area Medi
 | Manatee      | \$81,395       | \$95,294  | \$61,281 |
 | Pinellas     | \$73,832       | \$85,139  | \$55,310 |
 
-So in Manatee, "30% AMI or less" works out to roughly **\$24,000/year or less**. (These ACS medians are a close proxy for HUD's official AMI, which is set per metro area rather than per county. Notice renters earn only one-half to two-thirds of what owners earn - a preview of the renter-vs-owner finding below.)
+So in Manatee, "30% AMI or less" works out to roughly **\$24,000/year or less**. (These American Community Survey (ACS) medians are a close proxy for HUD's official AMI, which is set per metro area rather than per county. Notice renters earn only one-half to two-thirds of what owners earn - a preview of the renter-vs-owner finding below.)
 
 Why use the _local_ median instead of one statewide number? Because \$50,000 stretches much further in a small rural county than in Miami-Dade. AMI keeps the comparison fair county by county.
 
@@ -249,7 +249,7 @@ The honest fine print (Section 11 of the notebook has the full version):
 - **AMI proxy.** County median income approximates HUD's metro-level AMI; "roughly \$24,000" is a good ballpark, not the official cutoff.
 - **One earner per household.** The wages-vs-rent chart shows what a _solo_ median-wage worker faces; many households have two earners.
 - **Mixed time windows.** Cost burden is 2023, income 2024, household types 2020-2024, Fair Market Rent 2025 - each sheet is used on its own terms.
-- **College-town effect.** University counties like Alachua (Gainesville/UF) and Leon (Tallahassee/FSU & FAMU) can read high partly because of off-campus students. The Census measures a household's _own_ income, so students living on parental support, loans, or part-time work can show up as cost-burdened even when their families are not low-income. This does not make their burden fake - students also compete for rentals and push local rents up - but it is a reason to read those counties with extra care. Cleanly separating student from non-student renters would require record-by-record data on individual households (the Census Bureau publishes this as the American Community Survey Public Use Microdata Sample, or "PUMS"); the county-level Shimberg totals used here are already added up, so they cannot isolate that.
+- **College-town effect.** University counties like Alachua (Gainesville/UF) and Leon (Tallahassee/FSU & FAMU) can read high partly because of off-campus students. The Census measures a household's _own_ income, so students living on parental support, loans, or part-time work can show up as cost-burdened even when their families are not low-income. This does not make their burden fake - students also compete for rentals and push local rents up - but it is a reason to read those counties with extra care. Cleanly separating student from non-student renters would require record-by-record data on individual households (the Census Bureau publishes this as the ACS Public Use Microdata Sample, or "PUMS"); the county-level Shimberg totals used here are already added up, so this analysis can't isolate that with county-level totals.
 - **Descriptive, not causal.** This shows _where_ and _who_, not _why_.
 
 ---
